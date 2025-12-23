@@ -6,7 +6,8 @@ An AI assistant that helps you find hotels by combining real-time hotel data wit
 
 ### Prerequisites
 
-- Python 3.8 or higher                                             
+- Python 3.8 or higher
+- API KEYS are already set for your convenience.                                             
 
 ### Setup
 
@@ -117,6 +118,7 @@ The system combines external API data with LLM knowledge in a smart way:
 
 
 ---
+
 
 
 
