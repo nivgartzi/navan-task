@@ -4,10 +4,7 @@ An AI assistant that helps you find hotels by combining real-time hotel data wit
 
 ## How to Run
 
-### Prerequisites
-
-- Python 3.8 or higher
-- API KEYS are already set for your convenience.                                             
+### Prerequisites                                        
 
 ### Setup
 
@@ -15,6 +12,20 @@ An AI assistant that helps you find hotels by combining real-time hotel data wit
    ```bash
    pip install fastapi uvicorn openai httpx python-dotenv pytest
    ```
+
+**Configure API Keys:**
+
+Create a `.env` file in the project root with your API keys:
+
+```bash
+OPENAI_API_KEY=your_openai_api_key_here
+SERPAPI_KEY=your_serpapi_key_here
+```
+
+- **OpenAI API Key**: Get your key from [https://platform.openai.com/api-keys](https://platform.openai.com/api-keys)
+- **SerpAPI Key**: Get your key from [https://serpapi.com/](https://serpapi.com/)
+
+> **Note:** The application will work with mock data if the SerpAPI key is missing, but real-time hotel data requires a valid SerpAPI key.
 
 ### Running the Application
 
@@ -118,6 +129,7 @@ The system combines external API data with LLM knowledge in a smart way:
 
 
 ---
+
 
 
 
