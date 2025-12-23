@@ -21,7 +21,7 @@ if api_key:
         print(f"Error: {error_str}")
         
         if "401" in error_str or "invalid_api_key" in error_str:
-            print("\n🔴 The key is being read correctly, but OpenAI is rejecting it.")
+            print("\n The key is being read correctly, but OpenAI is rejecting it.")
             print("\nPossible reasons:")
             print("1. Key was revoked or expired - create a NEW key at:")
             print("   https://platform.openai.com/api-keys")
@@ -29,7 +29,8 @@ if api_key:
             print("   https://platform.openai.com/account/billing")
             print("3. Key belongs to different organization")
             print("4. Account suspended or restricted")
-            print("\n💡 Solution: Create a fresh API key and replace it in .env")
+            print("\n Solution: Create a fresh API key and replace it in .env")
 else:
     print("✗ API Key not found in .env file!")
+
 
