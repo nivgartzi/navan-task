@@ -119,14 +119,11 @@ The system combines external API data with LLM knowledge in a smart way:
 3. **Accuracy Preservation** - Ensures prices, names, and ratings match API data exactly
 4. **Meaningful Synthesis** - Validates that responses include comparisons, recommendations, and helpful analysis
 
-**Example:**
-- API says: "Grand Hotel, $150/night, 4.5 stars"
-- LLM adds: "This hotel offers excellent value - with 2000+ reviews, the 4.5 rating is reliable. It's a great choice for budget-conscious travelers who want quality."
-- System verifies: Prices and ratings match API exactly ✓
 
 
 
 ---
+
 
 
 
