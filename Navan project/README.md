@@ -10,12 +10,6 @@ An AI assistant that helps you find hotels by combining real-time hotel data wit
 
 ### Setup
 
-**Clone the repository:**
-   ```bash
-   git clone <repository-url>
-   cd "Navan project"
-   ```
-
 **Install dependencies:**
    ```bash
    pip install fastapi uvicorn openai httpx python-dotenv pytest
@@ -123,6 +117,7 @@ The system combines external API data with LLM knowledge in a smart way:
 
 
 ---
+
 
 
 
