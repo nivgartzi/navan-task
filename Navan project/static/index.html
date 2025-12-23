@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Hotels Assistant</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+    <div class="app-container">
+        <header>
+            <div class="logo">
+                <span class="logo-icon">🏨</span>
+                <h1>Booking Hotels Assistant</h1>
+            </div>
+            <button id="new-chat-btn" class="new-chat-btn">New Chat</button>
+        </header>
+
+        <main>
+            <section class="chat-section">
+                <div id="chat-window" class="chat-window">
+                    <div class="message assistant">
+                        <div class="avatar">AI</div>
+                        <div class="content">Hello! I'm your Booking Hotels Assistant. I can help you find the perfect accommodations in any city. Where would you like to stay?</div>
+                    </div>
+                </div>
+                <div class="input-area-container">
+                    <div class="input-area">
+                        <input type="text" id="nomad-message-input" value="" placeholder="Search for Hotels"
+                            autocomplete="off">
+                        <button id="send-btn" class="send-btn">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="/static/app.js"></script>
+</body>
+
+</html>
